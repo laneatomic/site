@@ -4,10 +4,12 @@ inherit_from: .rubocop_todo.yml
 
 AllCops:
   RunRailsCops: true
-  
   Exclude:
     - 'vendor/**/*'
     - 'spec/fixtures/**/*'
 
 Style/Encoding:
   Enabled: true
+
+Documentation:
+  Enabled: false
